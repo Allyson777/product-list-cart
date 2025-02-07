@@ -9,8 +9,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'custom-red': 'hsl(var(--custom-red))',
+        'custom-green': 'hsl(var(--custom-gren))',
+        'rose': {
+          50: 'hsl(var(--rose-50))',
+          100: 'hsl(var(--rose-100))',
+          300: 'hsl(var(--rose-300))',
+          400: 'hsl(var(--rose-400))',
+          500: 'hsl(var(--rose-500))',
+          900: 'hsl(var(--rose-900))',
+        },
       },
     },
   },

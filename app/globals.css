@@ -2,15 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --custom-red: 14 86% 42%;
+    --custom-green: 159 69% 38%;
+
+    --rose-50: 20 50% 98%;
+    --rose-100: 13 31% 94%;
+    --rose-300: 14 25% 72%;
+    --rose-400: 7 20% 60%;
+    --rose-500: 12 20% 44%;
+    --rose-900: 14 65% 9%;
   }
 }
 
